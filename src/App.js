@@ -34,7 +34,7 @@ function App() {
     const response = await fetch(endpoint);
 
     const expenseData = await response.json();
-
+    u;
     setExpenses(expenseData);
   };
 
